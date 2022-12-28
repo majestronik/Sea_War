@@ -13,4 +13,8 @@
     <Content Include="icon.ico" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Sea_War.Library\Sea_War.Library.csproj" />
+  </ItemGroup>
+
 </Project>

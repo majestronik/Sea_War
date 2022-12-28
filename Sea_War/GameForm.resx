@@ -1,0 +1,543 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lblScore.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 290</value>
+  </data>
+  <data name="&gt;&gt;lblTime.Parent" xml:space="preserve">
+    <value>infoPanel</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 30</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Furkan Kuru
+B211200371
+</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;infoPanel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblDifficulty.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="lblHighestScore.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 30</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 16pt</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAABAAABMLAAATCwAAAAAAAAAA
+        AAD///////////7+/v//////9OnY/+7k5//h0NT/5dba/9vDyv/fy8z/4Mq//+ja4P/n19v/4NHV/+TV
+        2v/VuLj/17q2/97K0v/hzdL/6tre/+fX3f/Nrqv/yais/+7l6P/bxsv/3cnO//fz9v/9++n//fz4///+
+        ///////////////////+/v7//v7+/+7f4/+td33/llNl/6pqe/+nY3X/lUdc/7d7iP+1fYP/mFdp/5hY
+        af+iWGv/mkth/5BEVf+cYm7/oWR1/6Zqef+WVmb/l1Rm/6Nia/+nZHH/o2J0/55Za/++i5j/m1hr/82r
+        pf/9+/j///////7+/v///////fz7///////Tt77/l0tf/8mTlv/v29//++7x//XX3f/Onan/4MfL/9uu
+        sv/HkZ//s3CB/6dSaP+icH3/y6yv/8u/vP/dztL/rXWD/8SbpP/QpLD/0amu/+G9w//ozNT/7ODj/+fR
+        1v/AmaP/mFRg/7SAjP/79vj////////+/f/9+eb/6tXJ/55SYP+7eoP/0ZSR/+a5tf/57tz/8ePW/82e
+        pv+tbnv/nj9O/6tebP+0bXn/soGG/7qQkv93GzH/kUpY/9LDv/+yhYz/x5aX/82jo/++hYz/ypOX//Hj
+        2f/k1Mr/1rKr/9msq//Ynpr/r2Vv/6Njbf/z6df//Pjk//////+7iZf/yJik/92+xf/NpKH/5dPX//v4
+        +f/05un/u4GR/7uIkv/MpKH/zLO7/9XEyP/Zxsr/i0FU/2UDHP+HOUv/jURY/7aZoP+3jpn/0cLG/8+q
+        rv/GjZj/8+Dl//zy9P/v3eL/5cvT/+LBvP//6uz/tXWH/82utv///////Pz8/7Bxgf/lq7r/7c3V/97I
+        vP/iz9P///7+/+ni5P/Vycz/qnuF/5ZVYP+2iZX/kkxe/2sNJf9nByD/cBQr/7eJkf+RSV3/eiY9/6Zu
+        fP+/laH/uIuR/9O9wP/k0tf///n6//bv8P/s4eX/5tfK//fx7//w5Oj/rHaE//bx8v/eys//pGJz//PU
+        3P/56+3/8+rY/97Hzf/z6uz//f/+/66GkP91GjH/diA0/2sOJv9nByD/Zwcg/3YfN/94Ijf/1Li5/86v
+        t/98KD7/m1pr/8ahq/+iZG//lU5d//Pr7v///f3//v39///+///27d3/+vby//z4+v+mbHv/6Nnd/+LR
+        1f+maXr/7NPc/+/d4//27Nz//v////79/f//////r3yK/4IxRv+GOUr/fixC/3UeNf90HDP/i0FV/4Au
+        Qf/WvL7/9fDz/8airP+sd4f/j0he/55eav+ZWGb/6+Dj///////28vT/8+rv/+rZzf/s3t//8unt/7OC
+        j//iz9T/zKuv/7yPl//kzs7/3MXE/9q/s//l1NL/8unm//Xs6v/Ho6j/0rO0/6x1ef+YVmf/fy1C/4Av
+        Q/+NRlf/gC1A/9a6t/////z/7eHg//Hp5f/fysr/3se8/9K0sf/hztH/+/jz/+bT0v/Zv8T/38a6/93C
+        wv/iycz/toSP/9rCxP/Ut7L/tYOG//r15P/x5tf/7t/I/+/j1P/069z/69zR/8uopv/k0MT/sXx5/5VP
+        Xf+IO03/gzRF/4xCUv+ALj//17mw///76/+yfoH/zaSg//v05P/37tT/5tLE/9Gxr//58+T/7+HW/+jX
+        0f/lzr3/6tfN//Dj2v+sdX7/1bey/+nb3/+/lqH///////7+/f/89+P//fz9///////Str7/1LjB/+rc
+        3v+ueX7/l1Rn/4IxRv+IPFH/kUtf/4EvQv/awMH///r//5ZQY/+jZ3j/+vf9//bt4f/69u//yqm1//38
+        /P////////////355f/9+/f//////8uqs//WvMT/49HV/7SDj////////v38//r04f/8+/v//////9O3
+        vv+XVGb/vZGa/7eGh/+JPlP/fSk//4o/U/+KP1T/eiQ4/9e9vP//////z7K5/76Vnv///////Pno/+HO
+        yf+nb3//9vDx///////+/v//+vTi//v59f//////xJ6o/9S5wP/Zwcb/rnqH///////+/vz/+vTi////
+        ///+/v3//////93Izf+VUWH/iDxM/4M1Sv+JPlL/ij9T/4pAVP95Izf/1Le3///////s4OP/qXOB////
+        ///Nrav/nV5p/93Izv///////v38///////79eP//fv3//////+/lqD/1brB/8yrtP+4i5j///////38
+        /P/79uP////////////9+/z//////8CYo/94Ijb/hjlO/5BJXP+QR1v/kUpe/3snO//Stbf//////+jZ
+        3f+hZXX/s4OQ/5VRYf/j0db///////79/f////7///////z15P/+/Pj//////698iv/Qsrr/3MXC/7mL
+        kf////j//Pfs//ny2f/8+e///Pnv//v37f////j/2b+8/3YeM/9+LED/hDVH/4c5Tf+GN0v/dBou/6Rp
+        cv+zgoz/oGRv/5xcZ/+STV7/qXJ2//v46v/8+fD//Pnu//z57v/8+vD/+fLb//r16f////3/vZGW/9K0
+        tP/Prqz/xJ6h////9v/79ef/9/LW//z36//89+v/+/bq///97//t4dn/gC0//4pAUf+VUWD/hTdK/4k8
+        T/+DNET/mFZf/6BicP/SsLP/vY+U/3YeNf+tdXP////t//r26//8+Or//Pfq//v47P/58dj/+vTl////
+        9/+9kJT/07Wy/8ikrv/Enqj///////38+//69eP////////////+/f3//////97Jz/98Jzv/kEpd/6No
+        eP+PSFv/jkVa/5ZSYP+7jpP/zKy2/+DIz//KpK//eSM8/5hUXf/+/Pf////////+/v////7///////v2
+        5P/9+/f//////7qOm//UuMD/zq62/8Sdp////////fz6//r14f////7////+//38+///////za2z/4k+
+        Tf+ocYD/kUtd/49IWv+pcoH/jEJS/7mMkv/MrbX/2sTJ/8Sgqf+sd4X/jUNT//Lp6f///////v79////
+        /f//////+/Xj//389///////qnOB/9zGzP/k09f/vJCb///////+/fz/+vTh/////v////7//f38////
+        ///aw8b/l1Rf/7KBjv98Jz3/fixB/5ZSZP+TTl3/iDxM/5FLXv+jaXj/rnqH/6Jndv+VUV3/9/Lu////
+        /////v3////9///////79eP//fr2//////+6jpn/2cHH/+na3/+ueon//fz9///////69eL/////////
+        /////v7///////fy8P/Zvrv/yqm2/4g9Uv+NRFf/jkhc/5ZUYf+rdH3/mltu/5xcbf+9lKD/49Hb/9rC
+        u/////f///////////////7///////v15P/9+vf//////76VoP/UucH/28K8/7WFh////uz/+/Xl//nw
+        0v/79+f//PXn//v35//79+j/+/Xi///84P/y6N3/toaG/4g7TP+UT13/mlhg/7eHiP+eYGv/l1Vh/9i8
+        tf/+++///Png//nz3v/69+n/+/bm//v25v/79+j/+e/V//rz4v///+7/u46Q/+LPxv/bw8T/uYyU////
+        /v/8+PH/+vLb//379P/9+/T//fv0//389v/7+O3/+PDb//v38//Nra7/rHeD/5xcbf+0hIj/nmBn/6Fl
+        dP+9k5r/49DO//379v/38N3//fnq////9v///fP//v3z////9v/69N3/+vbt///////CmZ//yKWn/9vE
+        yv+nbn7///////7+/f/78+P///////////////////////789//89uX//Pv+/615h//07u//xqOt/5hV
+        Yv+jZ3D/8Ofs/8Kcpv/WvMP///////z25v/49vP/9vf///f3///39/7/9PX///Tw4//+/Pf//////8ai
+        rP+7j5z/6dzf/6x3hf/////////+//v14f///////////////////////fz3//z45v/48/b/4c7S////
+        //+7kZ3/nFxn/6hvd//v5ur/8ens/+fW1v/u7///jonx/4F++P+Uk///mZj+/4uK/v99fP//hYHv/+zr
+        +v//////vJKd/9K1vP/r3+H/s4GO//////////3//PXh/////v////7////+///////+/Pf//Pfk//Tt
+        8f/v5ef//////9K2vv+bXGb/r3t//93Iz//y6+7/7d3Y/9TU//9HQvX/iYf7/+Df//+trP7/tbT+/4KB
+        //9mYvL/29v8//////+seIf/5NPX/+bW2/+pcoL//v7+///////89eP///////////////////////78
+        9//9+ef/9/L2/72Un/+7kZ3/t4qX/41EU/+ka3T/rHiI/8OerP/n08//zs///0I/9/93dfv/wsL//6uq
+        //+dm///fHr//21p8//a2Pv//////7SFk//fytD/9OnY/6Fkbf/q29D//fnl//nt0f/79OL/+/Xi//r1
+        4//79eT/+fTf//jv0v/99+b/1rqu/+LPw//k0Mf/mVde/7+UkP/j0Mb/69zO//bnz//RzOn/SUTz/3Ju
+        7P+Xk+v/ZWL4/9jW6f+FgfH/cWnp/9/d6f/w4tH/tIOH//Xu3P//////qnJ//9K1vP//////+e7a//79
+        +f/+/fr//v36//7+/P/9+/T/+vTh///+/f////7//fz7/////f+zgob/8ujd///////8+/z////8/9LR
+        /P9nYvP/b2v2/7u6/P+enf3/tbT6/2tp/f9jXvD/5ef//8KWmf+ygo7////////////j0db/oGNz/+LP
+        1P///un//v7+///+///+/f7//v7///379//69eP///////38/f/+/v7//f3//7ySlf/v5Nv///////z6
+        /P////7/7u7//5KO8P+Kh/f/eHb//4SB/P+CgP3/j43//8TD8P/Uvcf/llJk//Dm6f///////v7+////
+        ///cxsz/j0dZ/8ehn//9+/z//fz8//////////////75///86f/+/f///v7+//79/f//////y6qr/+bV
+        z/////////7+/////v///////frr//789f/////////+//7+/v//////0q+m/59fa//n2d3///////7+
+        /v///////v39///////m19r/q3V5/6Zse/++lJ//uIqW/7qOmv/Enqb/s4GF/72Tn/+teIX/xZ+p/7WF
+        kv+wfYb/q3V9/615h//BmaP/tYWR/7ODkv/Fnp7/vpSZ/7eJl/+/lqH/yKWu/614h/+fYWv/7OHj////
+        ///+/f3//////////////////v39///////x5tb/5tfb/9/M0f/Kp7D/4s/U/+HO0P/Mqqb/2sPL/9Cy
+        uf/AmKL/2MDI//Dm4P/dxcD/0rW//8eiq//Yv8X/3cfO/8+vrP/OrrH/2cHJ/8imrv/aw8n/4M3U//r0
+        4v/+/fn//v3/////////////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblScore.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>870, 80</value>
+  </data>
+  <data name="lblScore.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 30</value>
+  </data>
+  <data name="infoPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>259, 640</value>
+  </data>
+  <data name="lblTime.Text" xml:space="preserve">
+    <value>75</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lblHighestScore.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="infoPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>infoPanel</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblDifficulty.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 30</value>
+  </data>
+  <data name="lblHighestScore.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="infoPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>870, 0</value>
+  </data>
+  <data name="lblDifficulty.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;infoPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>infoPanel</value>
+  </data>
+  <data name="warFieldPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;warFieldPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Difficulty</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Sea_War</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 16pt</value>
+  </data>
+  <data name="lblScore.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 16pt</value>
+  </data>
+  <data name="lblHighestScore.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 16pt</value>
+  </data>
+  <data name="&gt;&gt;lblDifficulty.Parent" xml:space="preserve">
+    <value>infoPanel</value>
+  </data>
+  <data name="&gt;&gt;lblDifficulty.Name" xml:space="preserve">
+    <value>lblDifficulty</value>
+  </data>
+  <data name="lblScore.Location" type="System.Drawing.Point, System.Drawing">
+    <value>199, 290</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblHighestScore.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 30</value>
+  </data>
+  <data name="label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;lblHighestScore.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblHighestScore.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;infoPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="warFieldPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>870, 640</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>infoPanel</value>
+  </data>
+  <data name="&gt;&gt;infoPanel.Name" xml:space="preserve">
+    <value>infoPanel</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 30</value>
+  </data>
+  <data name="&gt;&gt;lblDifficulty.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblHighestScore.Location" type="System.Drawing.Point, System.Drawing">
+    <value>199, 377</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>infoPanel</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>102, 74</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Highest Score</value>
+  </data>
+  <data name="&gt;&gt;warFieldPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblScore.Name" xml:space="preserve">
+    <value>lblScore</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lblTime.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 332</value>
+  </data>
+  <data name="infoPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>infoPanel</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Remaining Time</value>
+  </data>
+  <data name="warFieldPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 32pt</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Score</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 16pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>infoPanel</value>
+  </data>
+  <data name="lblDifficulty.Location" type="System.Drawing.Point, System.Drawing">
+    <value>199, 332</value>
+  </data>
+  <data name="&gt;&gt;lblTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 98</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;lblScore.Parent" xml:space="preserve">
+    <value>infoPanel</value>
+  </data>
+  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 16pt</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>GameForm</value>
+  </data>
+  <data name="lblScore.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lblHighestScore.Name" xml:space="preserve">
+    <value>lblHighestScore</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 30</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 15</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 32pt</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 347</value>
+  </data>
+  <data name="&gt;&gt;lblDifficulty.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;warFieldPanel.Name" xml:space="preserve">
+    <value>warFieldPanel</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 377</value>
+  </data>
+  <data name="lblTime.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 30</value>
+  </data>
+  <data name="lblHighestScore.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;warFieldPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="warFieldPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 497</value>
+  </data>
+  <data name="lblDifficulty.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 16pt</value>
+  </data>
+  <data name="lblDifficulty.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblScore.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblTime.Name" xml:space="preserve">
+    <value>lblTime</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>warFieldPanel</value>
+  </data>
+  <data name="lblDifficulty.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblScore.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 49</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 16pt</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 26</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1129, 640</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="lblScore.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblHighestScore.Parent" xml:space="preserve">
+    <value>infoPanel</value>
+  </data>
+  <data name="&gt;&gt;lblTime.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, System.Private.CoreLib, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>aa-DJ</value>
+  </metadata>
+</root>

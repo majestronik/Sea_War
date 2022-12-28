@@ -9,6 +9,7 @@ namespace Sea_War
         public GameForm()
         {
             InitializeComponent();
+            _game.PassingTimeHasChanged+= Game_PassingTimeHasChanged;
         }
 
         private void GameForm_KeyDown(object sender, KeyEventArgs e)
@@ -31,6 +32,11 @@ namespace Sea_War
                     _game.Shoot();
                     break;
             }
+        }
+
+        private void Game_PassingTimeHasChanged(object sender ,EventArgs e)
+        {
+            lblTime.Text = $"{_game.PassingTime.Minutes}:{_game.PassingTime.Seconds.ToString("D2")}";
         }
     }
 }
